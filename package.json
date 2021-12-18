@@ -1,6 +1,7 @@
 {
   "name": "download-email-attachments",
   "description": "Download email attachments via IMAP",
+  "version": "1.0.0",
   "main": "index.js",
   "bin": {
     "download-email-attachments": "./bin/download-email-attachments.js"
