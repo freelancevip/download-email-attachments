@@ -1,7 +1,7 @@
 {
   "name": "download-email-attachments",
   "description": "Download email attachments via IMAP",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "bin": {
     "download-email-attachments": "./bin/download-email-attachments.js"
@@ -29,7 +29,7 @@
     "lodash.once": "3.0.1",
     "mailparser": "3.4.0",
     "minimist": "1.1.0",
-    "mkdirp": "0.5.1",
+    "mkdirp": "1.0.4",
     "moment": "2.10.6",
     "string-template": "0.2.0",
     "verbalize": "0.1.2"
