@@ -11,24 +11,10 @@
     "test-node": "mocha tests/**/test.*.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eHealthAfrica/download-email-attachments.git"
-  },
-  "keywords": [
-    "email",
-    "attachment",
-    "imap",
-    "cli"
-  ],
   "author": {
     "name": "Gregor Martynus"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/eHealthAfrica/download-email-attachments/issues"
-  },
-  "homepage": "https://github.com/eHealthAfrica/download-email-attachments",
   "devDependencies": {
     "chai": "1.10.0",
     "mocha": "2.1.0",
@@ -38,24 +24,14 @@
   },
   "dependencies": {
     "async": "1.5.0",
-    "imap": "0.8.17",
+    "imap": "0.8.19",
     "lodash.filter": "3.1.1",
     "lodash.once": "3.0.1",
-    "mailparser": "0.5.3",
+    "mailparser": "3.4.0",
     "minimist": "1.1.0",
     "mkdirp": "0.5.1",
     "moment": "2.10.6",
     "string-template": "0.2.0",
     "verbalize": "0.1.2"
-  },
-  "maintainers": [
-    {
-      "name": "ehealthafrica",
-      "email": "oss@ehealthafrica.org"
-    },
-    {
-      "name": "gr2m",
-      "email": "gregor@martynus.net"
-    }
-  ]
+  }
 }
